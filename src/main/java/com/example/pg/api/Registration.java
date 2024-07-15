@@ -1,17 +1,18 @@
 package com.example.pg.api;
 
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+
+@Data
 @Document(collection = "user")
 public class Registration {
 
     @Id
-    private Long id;
+    private String id;
 
-    private String firstName;
-
-    private String lastName;
+    private String name;
 
     private String phoneNumber;
 
