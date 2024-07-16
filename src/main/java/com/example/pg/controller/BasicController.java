@@ -2,7 +2,6 @@ package com.example.pg.controller;
 
 
 import com.example.pg.api.Registration;
-import com.example.pg.service.UserService;
 import com.example.pg.serviceImpl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
